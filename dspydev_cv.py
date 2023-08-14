@@ -344,7 +344,7 @@ def display_experience():
             "description": """
                 Je développe des applications Web avec ou sans solutions IA.
                 Je peux également faire de l'analyse de données avec Python, ses librairies et frameworks dédiés. 
-                \n J'aime la combinaison entre l'analyse de données, l'intelligence artificielle et le développememnt Web. 
+                \n J'aime la combinaison entre l'analyse de données, l'intelligence artificielle et le développement Web. 
                 Mes compétences évoluent en fonction des besoins. 
                 \n ➡️ Pour avoir plus d'informations me concernant :
                 \n - Retrouvez mes projets et études de cas sur GitHub : https://github.com/dspydev
