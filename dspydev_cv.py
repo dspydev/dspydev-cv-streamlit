@@ -802,7 +802,7 @@ def display_qualifications():
     )
 
 
-st.sidebar.image("avatar.png", width=200)
+st.sidebar.image("./avatar.png", width=200)
 
 st.sidebar.markdown(
     """
