@@ -287,9 +287,10 @@ def display_about():
         \n - Je m'occupe d'un refuge pour les chats errants (environ 15 h/sem)
         \n - Je fais beaucoup de vélo (je me déplace presque totalement à vélo)
         \n - J'aime lire des ouvrages scientifiques (les sciences en général m'intéressent) 
-        \n - Je passe du temps avec les personnes que j'aime et rencontrer des personnes humbles et bienveillantes
-        \n Et c'est à peu près tout. Ma vie personnelle est très simple. Je suis peu dépensier et plutôt casanier 
-        même si j'apprécie de travailler dans des espaces de coworking ou des médiathèques.
+        \n - Je passe du temps avec les personnes que j'aime
+        \n - J'aime rencontrer de nouvelles personnes pour échanger sur la Data Science, l'IA et disciplines connexes
+        \n Et c'est à peu près tout. Ma vie est très simple. Je suis plutôt casanier 
+        même si j'apprécie de travailler dans des espaces de coworking, des cafés ou des médiathèques.
         \n Et ça me va très bien, je me sens heureux comme ça :smiley:  
         La simplicité me permet d'être moins stressé, plus efficace et focalisé dans la réalisation de mes projets. 
         """
