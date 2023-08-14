@@ -1,5 +1,4 @@
 import streamlit as st
-import webbrowser
 from PIL import Image
 
 # Set page configuration
@@ -606,15 +605,9 @@ def display_services():
         """
     )
 
-    def open_calendly():
-        webbrowser.open_new_tab("https://calendly.com/dspydev")
-
-    col1, col2, col3 = st.columns(3)
-
-    col2.button(
-        "Réserver un entretien (45 min)",
-        on_click=open_calendly,
-        key="services_book_interview_button",
+    st.sidebar.markdown(
+    "Réserver un entretien (45 min)<a href='https://calendly.com/dspydev' target=\"_blank\">Prendre un rendez-vous</a>",
+    unsafe_allow_html=True,
     )
 
     st.markdown(
@@ -823,15 +816,9 @@ st.sidebar.markdown(
     """
 )
 
-
-def open_calendly():
-    webbrowser.open_new_tab("https://calendly.com/dspydev")
-
-
-st.sidebar.button(
-    "Réserver un entretien (45 min)",
-    on_click=open_calendly,
-    key="sidebar_book_interview_button",
+st.sidebar.markdown(
+    "Réserver un entretien (45 min)<a href='https://calendly.com/dspydev' target=\"_blank\">Prendre un rendez-vous</a>",
+    unsafe_allow_html=True,
 )
 
 nav = st.sidebar.radio(
