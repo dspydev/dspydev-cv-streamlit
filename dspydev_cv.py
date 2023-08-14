@@ -1,10 +1,8 @@
 import streamlit as st
 from PIL import Image
 
-# Set page configuration
 st.set_page_config(page_title="Damien Soulé", page_icon=":brain:", layout="centered")
 
-# Display information about Damien Soulé
 def display_about():
     st.markdown(
         "<h1 style='text-align: center; font-weight:bold; font-family:comic sans ms; padding-top: 0rem; padding-bottom: 50px;'>🧠 À propos</h1>",
@@ -331,7 +329,6 @@ def display_about():
     )
 
 
-# ...
 def display_experience():
     st.markdown(
         "<h1 style='text-align: center; font-weight:bold; font-family:comic sans ms; padding-top: 0rem; padding-bottom: 50px;'> 💼 Expérience</h1>",
@@ -605,11 +602,6 @@ def display_services():
         """
     )
 
-    st.sidebar.markdown(
-    "Réserver un entretien (45 min)<a href='https://calendly.com/dspydev' target=\"_blank\">Prendre un rendez-vous</a>",
-    unsafe_allow_html=True,
-    )
-
     st.markdown(
         """
     ### Comment je peux procéder ?
@@ -814,11 +806,6 @@ st.sidebar.markdown(
     Je suis également Data-Analyst.
     J'ai créé ce CV en ligne avec Python et Streamlit, et un peu d'HTLM et de CSS.
     """
-)
-
-st.sidebar.markdown(
-    "Réserver un entretien (45 min)<a href='https://calendly.com/dspydev' target=\"_blank\">Prendre un rendez-vous</a>",
-    unsafe_allow_html=True,
 )
 
 nav = st.sidebar.radio(
