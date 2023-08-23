@@ -546,7 +546,7 @@ def display_skills():
         ("Framework Data", "**Streamlit**"),
         ("Feuilles de calculs", "**Excel, Google Sheets**"),
         ("Bases de données", "**MySQL, PostgreSQL**"),
-        ("Cloud", "**Microsoft Azure**"),
+        ("Cloud", "**Google Cloud Platform**"),
         ("IDE", "**Jupyter Notebook, Google Colab, VS Code**"),
         ("Contrôle de version / Collaboration", "**Git, GitHub**"),
         ("Système d'exploitation", "**Windows**"),
@@ -598,117 +598,9 @@ def display_services():
         \n - Développement d'application Web IA (Streamlit, Flask, Django)
         \n - Analyse de données avec Python et les algorithmes Machine Learning si nécessaire (via Google Colab)
         \n - Développement d'application Web avec Django/React (+ possibilité d'intégrer l'IA par la suite)
-        \n - Conseils & accompagnement à l'intégration de solutions IA avec Microsoft Azure Cognitive Services.
+        \n - Conseils & accompagnement à l'intégration de solutions IA
         """
     )
-
-    st.markdown(
-        """
-    ### Comment je peux procéder ?
-    Je peux développer des applications Web IA en utilisant les librairies (par ex. : Scikit-learn, TensorFlow, Keras, Pytorch) 
-    et frameworks habituels (par ex. : Streamlit, Flask, Django)
-    ainsi que les outils IA de Microsoft Azure Cognitive Services, un des leaders mondiaux de l'IA.
-    \n :gear: **Les librairies et frameworks habituels de l'IA offrent une grande flexibilité et un contrôle sur le processus de développement de modèles IA**. 
-    Pour entraîner les modèles IA, ça demande beaucoup :
-    \n - d'expertise
-    \n - de temps
-    \n - de puissance de calculs
-    \n - de ressources financières 
-    \n :zap: **Si vous êtes limité par le temps et que vous avez des contraintes financières, 
-    les API pré-entraînées d'Azure Cognitive Services permettent d'intégrer l'IA dans les applications**,
-    notamment avec : 
-    \n - les API REST
-    \n - les SDK Python fournis par Azure
-    \n Les outils d'Azure Cognitive Services offrent de nombreux avantages, à savoir :
-    \n - des performances élevées
-    \n - l'accès aux dernières avancées en matière d'IA 
-    \n - la possibilité de se concentrer sur la création de fonctionnalités innovantes pour les applications plutôt que d'entraîner soi-même des modèles."""
-    )
-
-    st.markdown(
-        """
-    ### Exemples de solutions IA à intégrer dans vos applications
-    \n
-    Voici une liste indicative de quelques applications possibles avec Azure Cognitive Services :
-    """
-    )
-
-    col1, col2 = st.columns(2)
-
-    with col1:
-        expander = st.expander("Reconnaissance vocale")
-        expander.markdown(
-            "**Transcrire le discours audible en texte lisible et interrogeable.**"
-        )
-
-        expander = st.expander("Synthèse vocale")
-        expander.markdown(
-            "**Convertir le texte en langage réaliste pour des interfaces plus naturelles.**"
-        )
-
-        expander = st.expander("Traduction vocale")
-        expander.markdown(
-            "**Intégrer la traduction vocale en temps réel à vos applications.**"
-        )
-
-        expander = st.expander("Reconnaissance du locuteur")
-        expander.markdown(
-            "**Identifier et vérifier les personnes qui parlent en fonction de l'audio.**"
-        )
-
-        expander = st.expander("Traitement automatique des documents")
-        expander.markdown(
-            "**Automatiser le traitement des documents pour améliorer l'efficacité et réduire les erreurs.**"
-        )
-
-        expander = st.expander("Amélioration du service client")
-        expander.markdown(
-            "**Améliorer l'expérience client et fournir un service plus rapide et plus précis.**"
-        )
-
-        expander = st.expander("Analyse de sentiments")
-        expander.markdown(
-            "**Analyser les sentiments exprimés dans le texte et comprendre les opinions et les émotions des utilisateurs.**"
-        )
-
-        expander = st.expander("Recommandation")
-        expander.markdown(
-            "**Fournir des recommandations personnalisées aux utilisateurs en fonction de leurs préférences et de leur historique.**"
-        )
-
-    with col2:
-        expander = st.expander("Compréhension de la cause profonde des anomalies")
-        expander.markdown(
-            "**Comprendre les causes profondes des anomalies et améliorer les processus métier.**"
-        )
-
-        expander = st.expander("Extraction d'informations à partir du contenu")
-        expander.markdown(
-            "**Extraire des informations précieuses à partir du contenu et prendre des décisions éclairées.**"
-        )
-
-        expander = st.expander("Recherche")
-        expander.markdown(
-            "**Améliorer la recherche de contenu et fournir des résultats plus pertinents.**"
-        )
-
-        expander = st.expander("Vision")
-        expander.markdown(
-            "**Analyser, comprendre et manipuler les images et les vidéos.**"
-        )
-
-        expander = st.expander("Langage")
-        expander.markdown("**Comprendre, générer et traduire le langage humain.**")
-
-        expander = st.expander("Décision")
-        expander.markdown(
-            "**Prendre des décisions éclairées en utilisant des données et des modèles prédictifs.**"
-        )
-
-        expander = st.expander("Création de chatbots")
-        expander.markdown(
-            "**Créer des chatbots avancés capables de comprendre et de générer du langage naturel en utilisant les services Azure Bot Service et Azure OpenAI Service.**"
-        )
 
     st.markdown(
         """
