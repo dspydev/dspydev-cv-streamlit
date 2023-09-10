@@ -547,7 +547,7 @@ def display_skills():
         ("Feuilles de calculs", "**Excel, Google Sheets**"),
         ("Bases de données", "**MySQL, PostgreSQL**"),
         ("Cloud", "**Google Cloud Platform**"),
-        ("IDE", "**Jupyter Notebook, Google Colab, VS Code**"),
+        ("IDE", "**Jupyter Notebook, Google Colab, Google Cloud Shell, VS Code**"),
         ("Contrôle de version / Collaboration", "**Git, GitHub**"),
         ("Système d'exploitation", "**Windows**"),
     ]
